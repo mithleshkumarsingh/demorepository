@@ -1,0 +1,14 @@
+1	open cmd prompt
+2	mvn archetype:generate( this is create a project in an interactive mode)
+3	choose a number or type filter(just hit enter)
+4	choose a number 6(just hit enter)
+5	enter a value for groupid: enter the name of the package 
+6	enter a value for the artifact id:name of the project
+7	this will create a project folder with two files . one src folder and one pom.xml file
+8	the src folder contains one main and test folder. in the test foder we write all the automation scripts.
+9	now we need to configure the project in the eclipse.
+	right clikc on the project explorer, go to import. from there export the project folder.
+10	now save the project : mvn eclipse:eclipse
+11	this will add another two files. classpath and .project.
+12	to add jar files. mvn compile
+13	mvn eclipse:eclipse

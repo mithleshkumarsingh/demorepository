@@ -1,0 +1,20 @@
+<suite name="application under test" >
+<test name= "captcha test" >
+<classes>
+<class name= "day4.CaptchaTest" />
+</classes>
+</test>
+
+<test name= "checkbox test" >
+<classes>
+<class name= "day4.Checkbox1" />
+</classes>
+</test>
+
+<test name= "downloadtest" >
+<classes>
+<class name= "day5.Downloadautoit" />
+</classes>
+</test>
+</suite>
+
